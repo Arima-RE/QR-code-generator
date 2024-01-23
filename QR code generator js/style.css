@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+   
+    padding:  0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+   background-color: rgb(28, 27, 27);
+}
+.header h1{
+    display: flex;
+    position: relative;
+    top: -114px;
+    justify-content: center;
+    align-items: center;
+}
+.header img{
+    display: flex;
+    position: relative;
+    top: 1px;
+    left: 2px;
+   
+}
+.header ul{
+    display: flex;
+    position: relative;
+    bottom: 141px;
+    left: 1226px;
+max-width: fit-content;
+    text-decoration: none;
+    
+}
+.header ul li {
+    list-style: none;
+}
+.header ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.header ul #how{
+position: relative;
+    left: 74px;
+   
+}
+.container{
+width: 400px;
+padding: 25px 35px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: #fff;
+border-radius: 10px;
+}
+.container p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.container input{
+    width: 100%;
+    height: 50px;
+     border:1px solid #494eea;
+     outline: 0;
+     padding: 10px;
+      margin: 10px 0 20px;
+      border-radius: 5px;
+}
+.container button{
+   width: 100%;
+   height: 50px;
+   background: #494eea;
+   color: #fff;
+   border:0;
+   outline: 0;
+   border-radius:5px ;
+   box-shadow:0 10px 10px rgba(0,0,0,0.);
+   cursor: pointer;
+   margin: 20px 0;
+   font-weight: 500;
+}
+
+#qrbox{
+    width: 200px;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+}
+#qrbox img{
+    width: 100%;
+    padding: 10px;
+}
+#qrbox.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+    
+}
+#foot{
+    display:block;
+    margin-top:145px ;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+#foot-p{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 2px;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.error{
+    animation: shake 0.1s linear 5;
+}
+@keyframes shake{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
+}
+.about-qr{
+    display: block;
+    margin-top: 650px;
+    background-color: #d1d1d1;
+}
+.about-qr h1{
+    text-align: center;
+    padding-top: 25px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size:45px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.about-qr h3{
+    text-align: center;
+    padding-top: 25px;
+}
+.cont-card{
+    display: inline-block;
+    position: relative;
+}
+.cont-card{
+    width: 50%;
+    position: relative;
+    bottom: -28px;
+    left: 337px;
+}
+.about-qr img{
+
+    max-width: 50%;
+padding-left: 30px;
+
+
+
+}
+.cont-card1{
+    display: inline-block
+    ;
+   position: relative;
+   top: -38px;
+   
+    width: 44%;
+    padding-bottom: 25px;
+
+}
+.cont-card1 h3{
+    text-align: start;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    text-transform: uppercase;
+    
+}
+.cont-card1 p{
+font-weight: 500;
+font-size: large;
+    width: 50%;
+}
+#working-h1{
+    font-weight:500px ;
+    font-size: 45px;
+}
+#working-id{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position:relative;
+    top: 25px;
+    font-size: 25px;
+}
+.point-1{
+    display: flex;
+    position:relative;
+
+    top: 50px;
+    
+
+}
+#icon1{
+    position: relative;
+    left: 14px;
+    top: 18px;
+   
+}
+#card-para{
+    background-color: #fff;
+    padding: 20px;
+   border-radius: 10px 20px; 
+    width: 21%;
+    left: 25px;
+    position: relative;
+}
+#icon2{
+    position: relative;
+    left: 580px;
+    top: 64px;
+}
+#card-para2{
+    background-color: #fff;
+    padding: 20px;
+   border-radius: 10px 20px; 
+    width: 21%;
+    left: 609px;
+    position: relative;
+    top: 32px;
+}
+
+#icon3{
+    position: relative;
+    left:1090px;
+    top: 62px;
+}
+#card-para3{
+    background-color: #fff;
+    padding: 20px;
+   border-radius: 10px 20px; 
+    width: 21%;
+    left: 1117px;
+    position: relative;
+    top: 32px;
+}
